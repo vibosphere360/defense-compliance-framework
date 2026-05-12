@@ -292,6 +292,37 @@ No marking equals no protection equals a violation."
 
 ---
 
+Slide 2.5: FCI vs. CUI (Critical Distinction)
+FCI vs. CUI: What's the Difference?
+Aspect | FCI (Federal Contract Information) | CUI (Controlled Unclassified Information)
+-------|-----------------------------------|------------------------------------------
+Definition | Info provided by/generated for gov under contract | Info requiring safeguarding under laws/policies
+Source | The contract itself | Multiple sources (regulations, laws, EOs)
+Protection Standard | FAR 52.204-21 (basic safeguarding) | NIST SP 800-171 (110+ controls)
+CMMC Level | Level 1 | Level 2 or higher
+Examples | Contract number, delivery schedule | ITAR technical data, PII, export-controlled specs
+Consequence of Breach | Contract performance issue | Fines, debarment, criminal liability
+
+"The Trap: Many contractors treat all contract info as FCI. But if that contract contains ITAR data, it's CUI—and requires much stronger protection."
+
+Slide 2.6: EAR Deep Dive — De Minimis Rule
+De Minimis Rule: How Much U.S. Content Is Too Much?
+"Even a small amount of U.S.-origin content can make your entire product subject to EAR."
+
+Destination | De Minimis Threshold | Example
+------------|---------------------|----------
+Most countries | 25% U.S. content | Product with 10% U.S. parts = ✅ not subject to EAR
+Embargoed countries (Iran, NK, Syria, Cuba, Russia, Belarus) | 0% (de minimis does NOT apply) | Any U.S. content = subject to EAR
+China (specific ECCNs) | 0% for advanced tech | Semiconductors, AI chips
+
+"What to Do:
+• Calculate U.S. content percentage before exporting
+• When in doubt, assume EAR applies
+• Document your calculation for audit
+
+'Zero percent means zero. Any U.S. content to an embargoed country is a violation.'"
+
+
 ## MODULE 3: THE 7 GOLDEN RULES (Slides 3.1-3.7)
 
 ### Slide 3.1: The 7 Golden Rules (Cheat Sheet)
