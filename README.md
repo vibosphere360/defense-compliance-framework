@@ -487,3 +487,11 @@ This is a living framework. Have an improvement?
 ---
 
 *"If you touch it, you protect it. If you're not sure, you ask. There is no third option."
+
+### Module 8: Trusted Execution Environments (TEE) & Cryptographic Attestation
+- [Slides](training-materials/tee-module/tee-attestation-module.md)
+- [Demo Script](scripts/enclave-attestation-demo.py)
+- [KMS Policy Template](templates/kms-enclave-policy.json)
+- [TEE Comparison Guide](references/tee-comparison.md)
+- [SSP Language](policies/ssp-tee-segment.md)
+
