@@ -1,4 +1,3 @@
-Here is the final, corrected `README.md` for your GitHub repository. I have applied all the feedback from the review, including the small corrections and the suggested additions. You can copy and paste this directly into your `README.md` file.
 
 ```markdown
 # ITAR, EAR & CUI Compliance Training
@@ -12,7 +11,17 @@ Here is the final, corrected `README.md` for your GitHub repository. I have appl
 > **📌 This is a living framework.** Not a static document. Not legal advice. A practical, operational system for defense compliance.
 
 ---
+## Start Here (5-Minute Tour)
 
+New to the repository? Start here:
+
+1. 📖 **Read the training script** → [`01-training-materials/complete-training-script.md`](01-training-materials/complete-training-script.md)
+2. 🏗️ **Review the multi-system SSP strategy** → [`02-templates/multi-system-ssp-strategy.md`](02-templates/multi-system-ssp-strategy.md)
+3. 🤖 **Explore OPA policy-as-code** → [`06-automation/policies/cui-detection.rego`](06-automation/policies/cui-detection.rego)
+4. 🖼️ **View architecture diagrams** → [`07-architecture-diagrams/`](07-architecture-diagrams/)
+5. 📊 **Review success metrics** → [Success Metrics section](#success-metrics)
+
+**5 minutes. Then you'll understand the whole framework.**
 ## What This Is
 
 A complete, jargon-free compliance training program for defense contractors handling Controlled Unclassified Information (CUI), ITAR technical data, and EAR-controlled items. Built for real workflows, tested against audit scenarios, and designed to be delivered by anyone—not just lawyers.
@@ -219,6 +228,21 @@ cui-scan:
 - **Compliance link:** CM.L2-3.4.1 (baseline configurations), SI.L2-3.14.1 (flaw remediation)
 
 ---
+## Example Assessment Evidence
+
+> **What assessors actually look for.** This folder contains illustrative examples of evidence that satisfy CMMC Level 2 controls.
+
+| Folder | Purpose |
+|--------|---------|
+| `sample-screenshots/` | UI configurations (MFA, lockout policies, firewall rules) |
+| `sample-log-review/` | Weekly sign-off examples, SIEM dashboards |
+| `sample-poam/` | NOT MET finding entries with remediation plans |
+| `sample-cloudtrail-output/` | AWS CloudTrail logs showing API calls |
+| `sample-cui-marking/` | Examples of CUI//ITAR, CUI//EAR markings |
+
+**Key principle:** Evidence must be **current**, **complete**, and **corroborated**.
+
+➡️ **[Browse the example-evidence folder →](example-evidence/)**
 
 ## Success Metrics
 
